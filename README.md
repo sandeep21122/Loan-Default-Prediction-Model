@@ -88,21 +88,59 @@ Final Model Test Accuracy: 96.0%
 # Baseline Model Performance (Before Tuning)
 This table shows the performance of each model using its default parameters.
 
-Model	Accuracy	Precision	Recall	F1-Score
+     Models	                Accuracy	Precision	Recall	F1-Score
 
-Decision Tree Classifier	95.20%	95.00%	95.20%	95.00%
+Decision Tree Classifier	    95.20%	 95.00%	  95.20%	 95.00%
 
-Random Forest Classifier	94.55%	95.00%	94.55%	95.00%
+Random Forest Classifier	    94.55%	 95.00%	  94.55%	 95.00%
 
-Support Vector Machine (SVM)	93.70%	94.00%	93.70%	94.00%
+Support Vector Machine (SVM)	93.70%	 94.00%	  93.70%	 94.00%
 
-XGBoost Classifier	96.00%	96.00%	96.00%	96.00% 🏆
+XGBoost Classifier	          96.00%	 96.00%	  96.00%	 96.00% 🏆
 
 # Here are the performance metrics for the models after hyperparameter tuning.
 
-Model	Accuracy	Precision	Recall	F1-Score
-Decision Tree Classifier	95.20%	95.00%	95.20%	95.00%
-Random Forest Classifier	94.55%	95.00%	94.55%	95.00%
-Support Vector Machine (SVM)	93.70%	94.00%	93.70%	94.00%
-#XGBoost Classifier	96.00%	96.00%	96.00%	96.00% 🏆
+     Models	                Accuracy	Precision	 Recall	  F1-Score
+Decision Tree Classifier	    95.20%	 95.00%	   95.20%	   95.00%
+
+Random Forest Classifier      94.55%	  95.00%	 94.55%	   95.00%
+
+Support Vector Machine (SVM)	93.70%	  94.00%	  93.70%	  94.00%
+ 
+#XGBoost Classifier	          96.00%	  96.00%	  96.00%	  96.00% 🏆
+
+
+
+## How to Run This Project
+
+To run this project on your local machine, please follow these steps:
+
+**1. Clone the Repository**
+```bash
+git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+cd your-repository-name
+```
+
+**2. Create and Activate a Virtual Environment** (Recommended)
+```bash
+# For Windows
+python -m venv venv
+venv\Scripts\activate
+
+# For macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+```
+
+**3. Install Required Libraries**
+Make sure you have a `requirements.txt` file. Then, run:
+```bash
+pip install -r requirements.txt
+```
+
+**4. Launch Jupyter Notebook**
+Run the following command in your terminal and open the main project file.
+```bash
+jupyter notebook "ml_project_the_loan_main (new).ipynb"
+```
 
