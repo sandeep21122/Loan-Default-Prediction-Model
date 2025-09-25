@@ -88,12 +88,15 @@ Final Model Test Accuracy: 96.0%
 # Baseline Model Performance (Before Tuning)
 This table shows the performance of each model using its default parameters.
 
-#    Model      	        Accuracy	 Precision	  Recall	  F1-Score
-Logistic Regression 	     93.10%	    93.00%	    93.10%  	93.00%
-Decision Tree Classifier	 91.65%	    92.00%	    91.65%  	92.00%
-Random Forest Classifier	 94.25%	    94.00%	    94.25%	  94.00%
-Support Vector Machine (SVM)93.50%	  94.00%	    93.50%	  94.00%
-XGBoost Classifier	       95.65%	    96.00%	    95.65%	  96.00%
+Model	Accuracy	Precision	Recall	F1-Score
+
+Decision Tree Classifier	95.20%	95.00%	95.20%	95.00%
+
+Random Forest Classifier	94.55%	95.00%	94.55%	95.00%
+
+Support Vector Machine (SVM)	93.70%	94.00%	93.70%	94.00%
+
+XGBoost Classifier	96.00%	96.00%	96.00%	96.00% 🏆
 
 # Here are the performance metrics for the models after hyperparameter tuning.
 
